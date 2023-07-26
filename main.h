@@ -11,6 +11,7 @@ int _printf(const char *format, ...);
 int handle_specifier(const char *format, int format_i, va_list ap);
 int string_p(char c, va_list ap);
 int char_p(char c, va_list ap);
+int int_p(char c, va_list ap);
 
 /**
  * struct spec_func - specificier structure
