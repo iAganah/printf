@@ -16,7 +16,7 @@ int handle_specifier(const char *format, int format_i, va_list ap)
 
 	spec_func specifier_type[] = {
 		{'c', char_p}, {'s', string_p}, {'d', int_p},
-		{'i', int_p}
+		{'i', int_p}, {'b', print_b}
 	};
 
 	if (ap == NULL)
